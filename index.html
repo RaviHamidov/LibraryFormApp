@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- === Coding by CodingLab | www.codinglabweb.com === -->
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -76,7 +75,7 @@
                                     <input
                                         type="text"
                                         placeholder="Mail'nizi qeyd edin . . ."
-                                        required="Zehmet olmasa Mail'inizi qeyd edin"
+                                        oninvalid="this.setCustomValidity('Zehmet olmasa Mail`inizi qeyd edin')"
                                     />
                                     <i class="uil uil-envelope icon"></i>
                                 </div>
@@ -85,7 +84,7 @@
                                     <input
                                         type="text"
                                         placeholder="+994 xx xxx xx xx"
-                                        required="Zehmet olmasa Telefon Nomrenizi qeyd edin"
+                                        oninvalid="this.setCustomValidity('Zehmet olmasa Telefon Nomrenizi qeyd edin')"
                                     />
                                     <i class="uil uil-phone icon"></i>
                                 </div>
@@ -94,7 +93,7 @@
                                     <input
                                         type="text"
                                         placeholder="Neft-Qaz Muhendisi / Socar"
-                                        required="Zehmet olmasa Ixtisasinizi ve Islediyiniz qurumu qeyd edin"
+                                        oninvalid="this.setCustomValidity('Zehmet olmasa Ixtisasinizi ve Islediyiniz qurumu qeyd edin')"
                                     />
                                     <i class="uil uil-constructor icon"></i>
                                 </div>
@@ -103,7 +102,7 @@
                                     <input
                                         type="text"
                                         placeholder=""
-                                        required="Zehmet olmasa istediyiniz Kitab haqqinda aciqlama verin"
+                                        oninvalid="this.setCustomValidity('Zehmet olmasa istediyiniz Kitab haqqinda aciqlama verin')"
                                     />
                                     <i class="uil uil-book icon"></i>
                                     <div class="input-comment">
@@ -148,7 +147,5 @@
                 </div>
             </section>
         </div>
-
-        <script src="script.js"></script>
     </body>
 </html>
