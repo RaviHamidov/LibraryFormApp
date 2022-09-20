@@ -25,9 +25,11 @@
         <title>Registration Form</title>
     </head>
     <body>
-        <div class="d-flex">
-            <section class="col-6 panel flex-center-center">
-                <div class="container">
+        <div class="row p-0 m-0">
+            <section
+                class="col-xl-6 col-lg-6 col-md-6 col-sm-12 panel flex-center-center"
+            >
+                <div class="col-9 container flex-center-center flex-column">
                     <div class="panel_title">
                         <h1>AZİİ Elektron Kitab Evi</h1>
                         <p>
@@ -43,7 +45,7 @@
                     </div>
                 </div>
             </section>
-            <section class="col-6 form-section">
+            <section class="col-xl-6 col-lg-6 col-md-6 col-sm-12 form-section">
                 <div class="col-9 container bg-white">
                     <div class="forms">
                         <div class="form login">
@@ -51,8 +53,9 @@
                             <form action="#" class="mt-4">
                                 <div class="input-field">
                                     <input
+                                        class="text-truncate"
                                         type="text"
-                                        placeholder="Adiniz qeyd edin . . ."
+                                        placeholder="Adiniz qeyd edin"
                                         required="Zehmet olmasa Ad, Soyad ve Ata adnizi qeyd edin"
                                     />
                                     <i class="uil uil-user icon"></i>
@@ -63,8 +66,9 @@
 
                                 <div class="input-field">
                                     <input
+                                        class="text-truncate"
                                         type="text"
-                                        placeholder="Adress'inizi qeyd edin . . ."
+                                        placeholder="Adress'inizi qeyd edin"
                                         required=""
                                         oninvalid="this.setCustomValidity('Zehmet olmasa Adress`inizi qeyd edin')"
                                     />
@@ -73,8 +77,10 @@
 
                                 <div class="input-field">
                                     <input
+                                        class="text-truncate"
                                         type="text"
-                                        placeholder="Mail'nizi qeyd edin . . ."
+                                        placeholder="Mail'nizi qeyd edin"
+                                        required=""
                                         oninvalid="this.setCustomValidity('Zehmet olmasa Mail`inizi qeyd edin')"
                                     />
                                     <i class="uil uil-envelope icon"></i>
@@ -82,8 +88,10 @@
 
                                 <div class="input-field">
                                     <input
+                                        class="text-truncate"
                                         type="text"
                                         placeholder="+994 xx xxx xx xx"
+                                        required=""
                                         oninvalid="this.setCustomValidity('Zehmet olmasa Telefon Nomrenizi qeyd edin')"
                                     />
                                     <i class="uil uil-phone icon"></i>
@@ -91,8 +99,10 @@
 
                                 <div class="input-field">
                                     <input
+                                        class="text-truncate"
                                         type="text"
                                         placeholder="Neft-Qaz Muhendisi / Socar"
+                                        required=""
                                         oninvalid="this.setCustomValidity('Zehmet olmasa Ixtisasinizi ve Islediyiniz qurumu qeyd edin')"
                                     />
                                     <i class="uil uil-constructor icon"></i>
@@ -100,8 +110,10 @@
 
                                 <div class="input-field">
                                     <input
+                                        class="text-truncate"
                                         type="text"
                                         placeholder=""
+                                        required=""
                                         oninvalid="this.setCustomValidity('Zehmet olmasa istediyiniz Kitab haqqinda aciqlama verin')"
                                     />
                                     <i class="uil uil-book icon"></i>
@@ -113,6 +125,7 @@
                                 <div class="d-flex">
                                     <div class="input-field mr-2">
                                         <input
+                                            class="text-truncate"
                                             type="text"
                                             placeholder="9FCH6KR"
                                             required
@@ -127,6 +140,7 @@
 
                                     <div class="input-field">
                                         <input
+                                            class="text-truncate"
                                             type="text"
                                             placeholder="AA378237"
                                             required
